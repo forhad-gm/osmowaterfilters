@@ -79,3 +79,20 @@ a.main-product-link-bottom-text:hover {
     border: 1px solid #eb8100;
     color: #fff;
 }
+div#review-magnifier {
+    width: 40%;
+    display: inline-block;
+    float: right;
+}
+
+.single-main-product-table {
+    width: 60%;
+    display: inline-block;
+}
+@media (max-width: 860px) {
+    div#review-magnifier,
+    .single-main-product-table {
+        width: 100%;
+        display: block;
+    }
+}
